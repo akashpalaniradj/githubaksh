@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "YOUR_DOCKERHUB_USERNAME/flask-ci-cd"
+        IMAGE_NAME = "akashpalaniradj/flask-ci-cd"
         IMAGE_TAG  = "latest"
     }
 
