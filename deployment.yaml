@@ -15,5 +15,7 @@ spec:
       containers:
       - name: flask-app
         image: akashpalaniradj/flask-ci-cd:latest
+
+
         ports:
         - containerPort: 5000
