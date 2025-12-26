@@ -34,3 +34,36 @@ Docker image built and pushed
 Flask application deployed and running in Kubernetes
 ----------------------------------------------------
 
+Task 3: Observability with Prometheus & Grafana
+Objective: To monitor a Python Flask application using Prometheus and visualize metrics using Grafana.
+
+Tools used:
+
+Python (Flask)
+Prometheus
+Grafana
+Kubernetes (Minikube)
+Prometheus Python Client
+
+Implementation:
+
+Flask application exposes metrics at /metrics
+Prometheus configured to scrape application metrics
+Grafana connected to Prometheus as a data source
+Custom dashboards created for visualization
+
+Metrics Monitored:
+
+HTTP request count
+Request latency
+Application errors
+CPU and memory usage
+Python runtime metrics
+
+Outcome:
+
+Prometheus successfully scraped Flask metrics
+Grafana dashboards displayed real-time metrics
+Application observability achieved
+--------------------------------------------------
+
