@@ -32,6 +32,12 @@ Outcome:
 Jenkins pipeline executed successfully
 Docker image built and pushed
 Flask application deployed and running in Kubernetes
+
+Challenges Faced:
+
+Initial Jenkins pipeline failures due to incorrect Docker and Kubernetes configurations
+Docker image push errors caused by authentication issues with DockerHub
+Kubernetes deployment issues related to pod restarts and image pull errors
 ----------------------------------------------------
 
 Task 3: Observability with Prometheus & Grafana
@@ -65,6 +71,12 @@ Outcome:
 Prometheus successfully scraped Flask metrics
 Grafana dashboards displayed real-time metrics
 Application observability achieved
+
+challenges :
+
+Configuring Prometheus to correctly scrape metrics from the Flask application
+Exposing application metrics and verifying them at the /metrics endpoint
+Setting up Prometheus and Grafana services in Kubernetes
 --------------------------------------------------
 TASK 4:  Nginx – Small Project
 
@@ -92,5 +104,10 @@ Dockerfile – Dockerfile to build the Nginx container
 Outcome:
 
 Nginx successfully acts as a reverse proxy, routing client requests to the Python application container.
+
+Challenges Faced:
+
+
+Faced container naming and networking issues, which were resolved by properly managing Docker container names and attaching them to a common Docker network.
 --------------------------------------------------------------------------------------------------------
 
