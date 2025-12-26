@@ -66,4 +66,30 @@ Prometheus successfully scraped Flask metrics
 Grafana dashboards displayed real-time metrics
 Application observability achieved
 --------------------------------------------------
+TASK 4:  Nginx – Small Project
+
+Overview:
+This project demonstrates the use of Nginx as a reverse proxy for a Python (Flask) application. Nginx runs inside a Docker container and forwards incoming client requests to a Python application container running on port 5000.
+
+Components Used:
+
+Python Flask Application
+Nginx (Reverse Proxy)
+Docker
+Docker Network
+
+How It Works:
+
+The Python application runs in a Docker container (python_app) on port 5000.
+Nginx runs in a separate Docker container (nginx_proxy).
+Nginx listens on port 8081 and forwards requests to the Python app using Docker networking.
+
+Files Included:
+
+nginx.conf – Nginx reverse proxy configuration
+Dockerfile – Dockerfile to build the Nginx container
+
+Outcome:
+
+Nginx successfully acts as a reverse proxy, routing client requests to the Python application container.
 
