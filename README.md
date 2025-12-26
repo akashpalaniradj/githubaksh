@@ -92,4 +92,5 @@ Dockerfile – Dockerfile to build the Nginx container
 Outcome:
 
 Nginx successfully acts as a reverse proxy, routing client requests to the Python application container.
+--------------------------------------------------------------------------------------------------------
 
